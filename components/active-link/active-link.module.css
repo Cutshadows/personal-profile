@@ -1,0 +1,10 @@
+.link:hover {
+	text-decoration-line: underline;
+	color: #fff;
+	margin-right: 2rem;
+	transition: margin-right 1s ease-in-out;
+}
+
+.active-link {
+	color: red;
+}

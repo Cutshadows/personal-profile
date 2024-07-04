@@ -1,4 +1,11 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+	// experimental: {
+	// 	typedRoutes: true,
+	// },
+	// output: 'standalone',
+	// reactStrictMode: true,
+	// cssModules: true,
+}
 
 module.exports = nextConfig

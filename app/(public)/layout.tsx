@@ -9,11 +9,10 @@ export default function PublicLayout({
 }) {
   return (
 		<>
-		<Navbar />
-		<div className={styles['container-layout']}>
-			<h1>Hello Root Layout General</h1>
-		{children}
-		</div>
-	</>
+			<Navbar />
+			<div className={styles.contianer}>
+			{children}
+			</div>
+		</>
   );
 }

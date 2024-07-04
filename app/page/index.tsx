@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link';
 import styles from './page.module.css'
-import { navItems } from '@/components/navbar/Navbar'
+import { navItems } from '@/components/navbar'
 
 export default function Home() {
   return (

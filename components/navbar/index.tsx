@@ -1,6 +1,4 @@
-import Link from "next/link";
 import { ActiveLink } from "@/components";
-import { Label } from "components-profile";
 import styles from "./index.module.css";
 
 
@@ -13,9 +11,6 @@ export const navItems = [
 const Navbar = () => {
   return (
     <nav className={styles.container}>
-      <Link href="/" className={styles.home}>
-        <Label text="Home" />
-      </Link>
       <div className={styles.navigation}></div>
       {navItems.map((item) => (
         <ActiveLink key={item.path} {...item} />
